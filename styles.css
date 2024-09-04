@@ -1,0 +1,95 @@
+body{
+    background-image: linear-gradient(
+    100deg,
+    #96c5f7,
+    #E4D6A7
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-header {
+    font-size: 400%;
+    color: #001514;
+    padding: 10px;
+}
+
+
+.description{
+    font-size: 200%;
+    padding: 10px;
+}
+
+.ex1{
+    align-items: center;
+    height: 30%;
+    width: 30%;
+    margin: auto;
+}
+
+.ex2{
+    align-items: center;
+    height: 35.78%;
+    width: 35.78%;
+    margin: auto;
+}
+
+.Dono{
+    font-size: 220%;
+    color: #6C756B;
+    padding: 10px;
+}
+
+.pic-div {
+    display: flex;
+    justify-content: center;
+    border: 5px solid #001514;
+    background-color: #6C756B;
+}
+
+.donate-btn{
+    width: 10%;
+    height: 10vh;
+    background-color: #001514;
+    color: #E4D6A7;
+    font-size: x-large;
+}
+
+.button-center-div {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .main-header{
+        text-align: center;
+        font-size: 300%;
+    }
+
+    .description {
+        font-size: 150%;
+    }
+
+    .Dono{
+        font-size: 150%;
+    }
+
+    .pic-div{
+        display: block;
+        
+    }
+
+    .ex1{
+        width: 100%;
+    }
+
+    .ex2{
+        width: 100%;
+    }
+
+    .donate-btn{
+        width: 40%;
+        font-size: xx-large;
+    }
+}
