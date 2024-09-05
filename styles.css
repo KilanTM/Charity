@@ -72,14 +72,18 @@
 
     .description {
         font-size: 150%;
+        padding: 10px;
     }
 
     .Dono{
         font-size: 150%;
+        padding: 10px;
     }
 
     .pic-div{
         display: block;
+        width: 96%;
+        margin-left: 0px;
         
     }
 
